@@ -4,15 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg_home"
     tools:context=".MainActivity">
 
     <TextView
+        android:onClick="OnClick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="XIn chao Duan Nguyen!"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="8dp"
+        android:text="WELLCCOME WITH US"
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.243" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
