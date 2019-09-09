@@ -26,10 +26,10 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     private void init() {
-        mTxtEmail = findViewById(R.id.username);
-        mTxtName=  findViewById(R.id.password);
-        Intent intent = getIntent();
-        mTxtName.setText(intent.getStringExtra("email"));
-        mTxtEmail.setText(intent.getStringExtra("name"));
+//        mTxtEmail = findViewById(R.id.username);
+//        mTxtName=  findViewById(R.id.password);
+//        Intent intent = getIntent();
+//        mTxtName.setText(intent.getStringExtra("email"));
+//        mTxtEmail.setText(intent.getStringExtra("name"));
     }
 }

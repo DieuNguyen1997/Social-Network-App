@@ -2,9 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".ResigterActivity">
 
     <TextView
@@ -21,26 +21,26 @@
         android:orientation="vertical">
 
         <EditText
-            android:inputType="textEmailAddress"
             android:id="@+id/edt_username_rs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/ic_perm_identity_black_24dp"
-            android:hint="Nhập tên tài khoản" />
+            android:hint="Nhập tên tài khoản"
+            android:inputType="textEmailAddress" />
 
         <EditText
-            android:inputType="textPassword"
             android:id="@+id/edt_password_rs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Nhập mật khẩu" />
+            android:hint="Nhập mật khẩu"
+            android:inputType="textPassword" />
 
         <EditText
-            android:inputType="textPassword"
             android:id="@+id/edt_repassword_rs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Nhập lại mật khẩu" />
+            android:hint="Nhập lại mật khẩu"
+            android:inputType="textPassword" />
 
     </LinearLayout>
 
@@ -56,22 +56,17 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="Đăng ký" />
-        <Button
-            android:id="@+id/btn_back_rs"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="Quay lại" />
+
         <TextView
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:onClick="OnClickTxt"
-            android:layout_gravity="center"
             android:id="@+id/txt_signin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="OnClickTxt"
             android:text="Bạn đã có tài khoản?"
-            android:textColor="@color/colorBlue" />
+            android:textColor="@color/colorBlue"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 

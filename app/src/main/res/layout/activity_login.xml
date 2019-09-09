@@ -86,14 +86,11 @@
             android:layout_gravity="center"
             android:text="Hoặc" />
 
-
         <com.google.android.gms.common.SignInButton
-            android:layout_gravity="center"
             android:id="@+id/sign_in_button_gg"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-
-
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
 
     </LinearLayout>
 </LinearLayout>
