@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="txt_username_post">22dp</dimen>
+    <dimen name="txt_time_posted">15dp</dimen>
+</resources>

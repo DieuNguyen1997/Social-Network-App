@@ -1,4 +1,15 @@
 <resources>
     <string name="app_name">SocialNetwork Application</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_toolbar_add">Tạo bài viết</string>
+    <string name="content_post_add">Nội dung bài viết</string>
+    <string name="title_post_add">Tiêu đề bài viết</string>
+    <string name="txt_username">Diệu Nguyễn</string>
+    <string name="txt_title_post_list">Konichiwa</string>
+    <string name="txt_content_post_list">Watashi wa Diệu desu. PTIT daigaku no gakusei desu. Douzo zoroshiku o negaishimasu.</string>
+    <string name="txt_time_posted">Just now</string>
+    <string name="home_toolbar_title">Apartment</string>
+
 </resources>
